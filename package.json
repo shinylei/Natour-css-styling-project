@@ -1,0 +1,22 @@
+{
+  "name": "natour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass" : "node-sass ./sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinylei/Natour-css-styling-project.git"
+  },
+  "author": "lei wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinylei/Natour-css-styling-project/issues"
+  },
+  "homepage": "https://github.com/shinylei/Natour-css-styling-project#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
