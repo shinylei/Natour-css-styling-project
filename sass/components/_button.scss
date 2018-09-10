@@ -1,6 +1,6 @@
 
 .btn{
-
+    &,
     &:link,
     &:visited {
         text-transform: uppercase;
@@ -11,6 +11,9 @@
         transition: all .2s;
         position: relative;
         font-size: 1.6rem;
+
+        border: none;
+        cursor:pointer;
     }
 
     &--white {
@@ -44,8 +47,11 @@
     
     }
 
-    &:active {
+    &:active 
+    &:focus{
+        outline: none;
         transform: translate(-1px);
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
     }
 
     &::after {
